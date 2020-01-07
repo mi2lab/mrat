@@ -1,5 +1,5 @@
 # MRAT
-Mixed Reality Analytics Toolkit
+## Mixed Reality Analytics Toolkit
 
 This repository contains code and examples described in detail in our (conditionally accepted) CHI 2020 paper "MRAT: The Mixed Reality Toolkit" (to appear in April 2020).
 
