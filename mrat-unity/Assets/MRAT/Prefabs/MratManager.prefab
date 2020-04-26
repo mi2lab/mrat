@@ -1,0 +1,291 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1227192223097436}
+  m_IsPrefabParent: 1
+--- !u!1 &1227192223097436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4071827535271812}
+  - component: {fileID: 82662004148328500}
+  - component: {fileID: 114443193367983806}
+  - component: {fileID: 114855288403146888}
+  - component: {fileID: 114254460951137462}
+  - component: {fileID: 114661099097696022}
+  - component: {fileID: 114074237082152126}
+  - component: {fileID: 114343951578076134}
+  - component: {fileID: 114198742058157012}
+  - component: {fileID: 114202593571580804}
+  - component: {fileID: 114089344117875182}
+  m_Layer: 0
+  m_Name: MratManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4071827535271812
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1227192223097436}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82662004148328500
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1227192223097436}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114074237082152126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1227192223097436}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89855a8400d4d404ea04ea4fe0a034b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CaptureHolograms: 1
+  PhotoEventReceiver:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114661099097696022}
+        m_MethodName: PhotoReceiver
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+    m_TypeName: MRAT.MratPhotoCapturedEventReceiverUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114089344117875182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1227192223097436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc62d29e6f01c5c49907ccbb87c660ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114198742058157012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1227192223097436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb36c8b575bccb2459c2072cf21ff0cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PollForObjectChangesInterval: 1
+  ObjectFixationTime: 1000
+  TrackableObjectAdded:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: MRAT.MratGameObjectUnityEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  TrackedObjectTransformChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: MRAT.MratGameObjectUnityEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  TrackedObjectDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: MRAT.MratGameObjectUnityEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!114 &114202593571580804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1227192223097436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6203ccf0018f654b84773ef05a68642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114254460951137462
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1227192223097436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4787745b8258c47875f3d2fd49022c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ServerBaseUri: http://localhost:8081
+  ServerMessageUri: http://localhost:8081/mrat/insert
+  ServerPhotoOnlyUri: http://localhost:8081/mrat/saveScreenshot
+  ServerGetSessionIdsUri: http://localhost:8081/mrat/getSessionIds
+  ServerGetEventsByIdUri: http://localhost:8081/mrat/getEventsBySessionId
+  ServerInteractiveEndpoint: http://localhost:8081/mrat/getEventSelection
+  ServerInteractiveUpdated: http://localhost:8081/mrat/hasEventSelectionChanged
+  User: user
+  Token: abcd1234
+  LogServerResponsesLocally: 0
+  LogWorkerProgress: 0
+  MinimumFileAgeSeconds: 3
+--- !u!114 &114343951578076134
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1227192223097436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a698554c7fd7f9044831e8c1efe48ed0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IntervalSeconds: 1
+  FpsWarningLevel: 30
+  LogPerformanceWarnings: 0
+  TotalUserDistanceTravelled: 0
+--- !u!114 &114443193367983806
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1227192223097436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca6f3b91ea1f9634db308846d1cdfb7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  voice: 3
+--- !u!114 &114661099097696022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1227192223097436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a850e7ae295a4954191bae6ecc354ec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LogClickEvents: 0
+  LogSourceEvents: 0
+  LogFocusEvents: 0
+  CaptureScreenshotOnClick: 0
+  CapturePhotoToFileOnClick: 0
+  SavePhotosToServer: 0
+--- !u!114 &114855288403146888
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1227192223097436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 336414a22ced4554796526e5fd713436, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LocalLoggingOnly: 1
+  LogGeneratedMessagesLocally: 0
+  SpeachOutputEnabled: 1

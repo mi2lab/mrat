@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1662979839795714}
+  m_IsPrefabParent: 1
+--- !u!1 &1662979839795714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4640823919987226}
+  - component: {fileID: 114809890127961064}
+  - component: {fileID: 114974431550539024}
+  - component: {fileID: 114902540790149058}
+  - component: {fileID: 114561435650554940}
+  - component: {fileID: 114723205256941952}
+  - component: {fileID: 114005500181516466}
+  m_Layer: 8
+  m_Name: MratMRVisualizerWithClustering
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4640823919987226
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1662979839795714}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114005500181516466
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1662979839795714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3c3193624cf1440a55f0b9b91ed8af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkerGeneric: {fileID: 1623744582121190, guid: 1d09b72d6efcab348ac44244b58314a2,
+    type: 2}
+  MarkerImage: {fileID: 1415561515977476, guid: f3951e71fc76edc4da0f87f9079a7382,
+    type: 2}
+  EventMarkerLayer: 8
+  ShowUpdateEvents: 1
+  ShowInputEvents: 1
+  ShowPhotoEvents: 0
+  PhotoTextureEndpoint: http://localhost:8081/mrat/getScreenshot?fileName=
+--- !u!114 &114561435650554940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1662979839795714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59692921ebe82b245bfd9f2abd642b62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  do2DHeatmap: 0
+  radius: 0.4
+  opacity: 0.02
+  prefab: {fileID: 1703166096850264, guid: 5029a45bd1a759d489081351e246a3ba, type: 2}
+--- !u!114 &114723205256941952
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1662979839795714}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cbf3976769777e4cb3f06f99352fb0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  directionalMarker: {fileID: 1948272900487470, guid: 7fd6c6fa6fca55e4cb7595ab34a1e833,
+    type: 2}
+  groupMarker: {fileID: 1701410583948878, guid: e8cfb7e8b43827b489f9507d5ab0c3ad,
+    type: 2}
+  groupingSize: 0.2
+--- !u!114 &114809890127961064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1662979839795714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c097c147face6b46bb3b0f1d864a42e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventMarkerLayer: 8
+  VisualizeFromInteractiveEndpoint: 1
+  NoLoggingWhenVisualizing: 1
+  SessionIdToVisualize: 
+  InteractiveRefreshInterval: 1
+--- !u!114 &114902540790149058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1662979839795714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dad2dd889f955a0428c8bf49269885c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  responseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0.0025634766
+      value: 1.0032234
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.22853252
+      value: 0.24916741
+      inSlope: -1.1332659
+      outSlope: -1.1332659
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.90099967
+      value: 0.039611153
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  maxDist: 8
+--- !u!114 &114974431550539024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1662979839795714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fd392f39ade5444eb554e68890a5164, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialVisualizationPercentage: 0.3
+  directionalMarker: {fileID: 1948272900487470, guid: 7fd6c6fa6fca55e4cb7595ab34a1e833,
+    type: 2}
+  groupMarker: {fileID: 1476159525111664, guid: 52cebb7fd2673854983e2f11a1456722,
+    type: 2}
+  axisMarker: {fileID: 1490218480551422, guid: 45079f39947925a4a935d9d8e62d44c2, type: 2}
+  motionRate: 0.05
+  scaleRate: 0.1
+  motionCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 8.20465
+      outSlope: 8.20465
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.16328374
+      value: 0.6774362
+      inSlope: 1.2040138
+      outSlope: 1.2040138
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  groupScaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0.80215454
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1.0078219
+      value: 1.8000522
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  groupSizeMaxScale: 200
