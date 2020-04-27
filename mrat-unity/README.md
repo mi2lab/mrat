@@ -1,12 +1,12 @@
 # MRAT: The Mixed Reality Analytic Toolkit (MRAT)
 
-This is the Microsoft HoloLens portion of the MRAT project to build the Unity asset package.
+- This is the Microsoft HoloLens portion of the MRAT project to build the Unity asset package.
 
-Current Unity Version: 2017.4.12f1 LTS [Unity download archive](https://unity3d.com/unity/qa/lts-releases)
+- Current Unity Version: 2017.4.12f1 LTS [Unity download archive](https://unity3d.com/unity/qa/lts-releases)
 
-Optional (recommended) to use Unity Hub, which manages multiple Unity versions on one machine more easily: [Unity Hub](https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe)
+- Optional (recommended) to use Unity Hub, which manages multiple Unity versions on one machine more easily: [Unity Hub](https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe)
 
-Current MRTK Version (included in project, no need to download): 2017.4.1.0 [Microsoft Mixed Reality Toolkit](https://github.com/Microsoft/MixedRealityToolkit-Unity)
+- Current MRTK Version (included in project, no need to download): 2017.4.1.0 [Microsoft Mixed Reality Toolkit](https://github.com/Microsoft/MixedRealityToolkit-Unity)
 
 ## Deploying the project with Unity
 
@@ -28,11 +28,3 @@ Current MRTK Version (included in project, no need to download): 2017.4.1.0 [Mic
 
 - When your Unity complains about not having Windows 10 SDK:
 Download the missing SDK *and all the SDK versions prior to the required one* using Visual Studio installer
-
-Microsoft HoloLens portion of the project to develop the Unity asset package
-
-Current Unity Version: 2017.4.12f1 LTS [Unity download archive](https://unity3d.com/unity/qa/lts-releases)
-
-Optional (recommended) to use Unity Hub, which manages multiple Unity versions on one machine more easily: [Unity Hub](https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe)
-
-Current MRTK Version (included in project, no need to download): 2017.4.1.0 [Microsoft Mixed Reality Toolkit](https://github.com/Microsoft/MixedRealityToolkit-Unity)
