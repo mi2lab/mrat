@@ -1,6 +1,6 @@
 # MRAT: The Mixed Reality Analytics Toolkit
 
-This repository contains code and examples described in detail in our CHI 2020 paper, **MRAT: __The Mixed Reality Toolkit__**.
+This repository contains code and examples described in detail in our CHI 2020 paper, **MRAT: _The Mixed Reality Toolkit_**.
 
 - The CHI 2020 paper is available in the [ACM Digital Library](https://dl.acm.org/doi/abs/10.1145/3313831.3376330).
 
