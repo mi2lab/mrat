@@ -2,8 +2,14 @@
 
 This repository contains code and examples described in detail in our CHI 2020 paper _MRAT: The Mixed Reality Toolkit_ (to appear in April 2020).
 
-We are currently still in the process of working with U-M Tech Transfer to determine appropriate licensing options and moving the latest code from our private repositories into this public repository. We expect this process to be completed just before CHI in April 25-30, 2020.
+- The CHI 2020 paper is available in the [https://dl.acm.org/doi/abs/10.1145/3313831.3376330](ACM Digital Library).
 
+- An author copy version of the paper can be found on [https://www.mi2lab.com/research/mrat/](our web site).
 
-# Unity Project
+## MRAT Unity Project
+
 See [mrat-unity](mrat-unity) for the Unity source code.
+
+## MRAT Server
+
+We can make the MRAT server available upon request. Please get in touch with nebeling@umich.edu.
